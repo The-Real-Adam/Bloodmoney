@@ -1,6 +1,6 @@
 
 html{
-  background-color: #666564;
+  background-color: #cecece;
 }
 
 body {
@@ -26,12 +26,30 @@ body {
    position:absolute;
    bottom:0;
    width:100%;
-   height:60px;   /* Height of the footer */
+   height:auto;   /* Height of the footer */
    background:#6cf;
+}
+.push {
+  height: 60px;
 }
 
 .description{
   background-color: white;
   padding: 15px;
-  height: 500px
+  height: auto;
+  min-height: 500px;
+  min-width: 500px;
+  width:auto;
+  max-width: 600px;
+}
+
+.btn-wide{
+  width:90%;
+  max-width: 500px;
+  position: absolute;
+  bottom: 0
+}
+
+.justifyCenter{
+  justify-content: center;
 }
