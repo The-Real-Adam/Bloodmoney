@@ -18,38 +18,47 @@
   <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="">World Banking World Fraud</a>
+      <a class="navbar-brand" href="index.html">World Banking World Fraud</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item ">
-            <a class="nav-link" href="http://localhost:3000">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="/bloodmoney">Whistleblower: Bloodmoney</a>
+            <a class="nav-link" href="bloodmoney.html">Whistleblower: Bloodmoney</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="WBWF">World Banking World Fraud</a>
+            <a class="nav-link" href="wbwf.html">World Banking World Fraud</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="WBWFVoices">World Banking World Fraud Voices</a>
+            <a class="nav-link" href="wbwfvoices.html">World Banking World Fraud Voices</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="News">In the News</a>
+            <a class="nav-link disabled" href="News">In the News</a>
+          </li>
+          <li>
+            <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+            ">
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_viewcart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
           </li>
         </ul>
       </div>
     </nav>
     <br>
 
-    <div id='container' class="container">
+    <div id='container' class="container-fluid">
       <div class="row">
-        <div class="col">
-          <img src='img/WBBM1.png' height="500" width="500">
+        <div class="col-6">
+          <img src='img/WBBM.png' height="500" width="800">
         </div>
-        <div class="col">
+        <div class="col-6">
           <div class="description justifyCenter">
             <h1>Whistleblower: Bloodmoney</h1>
             <p>In the tool kit of “Fake News” hangs the tactic of “No News.” — what those in power use to negate the stories and platforms of the people who expose their lies.
@@ -57,7 +66,14 @@
                 But he would not remain silent.
                 Whistleblower Blood Money reveals the anatomy of a cover-up, lived from the inside by an honest man—an employee of HSBC, who would not look the other way and pressed his evidence until the powers that be had to listen.
             </p>
-            <div class="justifyCenter"><a href="https://www.amazon.com/gp/product/146378659X?keywords=World%20Banking%20World%20fraud&qid=1457922631&ref_=sr_1_1&sr=8-1"><button type="button" class="btn btn-dark btn-wide">Buy Now</button></a>
+            <div><a href="https://www.amazon.com/gp/product/146378659X?keywords=World%20Banking%20World%20fraud&qid=1457922631&ref_=sr_1_1&sr=8-1"><button type="button" class="btn btn-dark">Buy Now on Amazon</button></a>
+              <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+              <input type="hidden" name="cmd" value="_s-xclick">
+              <input type="hidden" name="hosted_button_id" value="LU7HQYRY42UV2">
+              <input type="image" src="img/add_to_cart.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+              <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+              </form>
+
             </div>
           </div>
 
